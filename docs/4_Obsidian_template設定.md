@@ -13,7 +13,7 @@ GAの表示と、Dataviewを使いやすくしておく事は次点で重要。
 
 ### (Vaultname)/ZtTemplates/zt-field.eta.md
 
-本ファイルは、論文mdファイル上部のフィールドを規定している。  
+本ファイルは、論文mdファイル上部のプロパティ欄を規定している。  
 
 URL: "https://doi.org/<%= it.DOI %>"  
 Zotero: "<%= it.backlink %>"  
