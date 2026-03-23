@@ -53,7 +53,7 @@ Obsidianの設定 (Zotlitの設定ではない) > ファイルとリンク > 除
 
 Template > simple > Note filename を下記にしておく。   
 <%= it.citationKey ?? it.citekey ?? it.DOI ?? it.title %>.md  
-これは、論文ノートのmdファイル名を、citation keyにするための設定。 
+これは、論文ノートのmdファイル名を、citation keyにするための設定。  
 Zoteroのバージョン次第だが、it.citationKey か it.citekey のどちらかを使用している。  
 doiやタイトルは、上記が割り当てられていない等の不具合時に、代わりに使用される。
 
