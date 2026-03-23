@@ -29,7 +29,7 @@ Zotero key, zotero attachment は消せない。
 
 #### GAの表示設定
 
-ファイルには、下記を記載しておく。
+ファイルには、下記を記載しておく。  
 ![[<%= it.citationKey %>_GA.png]]  
 
 ノート作成時は、下記のような表示になっており  
