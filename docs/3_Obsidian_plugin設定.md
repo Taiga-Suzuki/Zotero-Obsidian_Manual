@@ -30,20 +30,26 @@ Table Generator
 
 ### Pandoc Plugin
 
-ターミナル経由で何かインストール
+ターミナルを使用した、pandocのインストールが必要。
 
-```bash pandoc --version```
+```bash pandoc --version```  
+の結果、  
+command not found  
+となる場合は、  
+```bash brew install pandoc```  
+でインストールする。
 
-  
-Zoteroのjsonファイルをまだここに置いていない場合は、[前段階のマニュアル](1_Zotero_plugin設定.md) を参照してexport  
-
-### Simple Citations
-
-Pandoc settings > Export folder のパス設定
+他に、Extra pandoc arguments欄で、Zoteroのjsonファイルのパスが必要。   
+まだ置いていない場合は、[前段階のマニュアル](1_Zotero_plugin設定.md) を参照してexport  
 
 ### Zotlit
 
-Zotero data directory  
+templateファイル(後述)がグラフビュー(後述)に出てきてしまって邪魔なので、非表示設定をしておく。
+Obsidianの設定 (Zotlitの設定ではない) > ファイルとリンク > 除外ファイル  
+→ ZtTemplates/  
+を選択しておく。
+
+Connect > Zotero data directory において  
 画像のようなエラーが出ていても、問題なく動く。  
 ![](../images/002.png)
 
