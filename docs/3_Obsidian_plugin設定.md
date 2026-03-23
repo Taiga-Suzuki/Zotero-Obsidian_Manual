@@ -49,6 +49,14 @@ Obsidianの設定 (Zotlitの設定ではない) > ファイルとリンク > 除
 → ZtTemplates/  
 を選択しておく。
 
+以降は、Zotlit内の設定。
+
+Template > simple > Note filename を下記にしておく。  
+論文ノートのmdファイル名を、citation keyにするための設定。  
+<%= it.citationKey ?? it.citekey ?? it.DOI ?? it.title %>.md  
+Zoteroのバージョン次第だが、it.citationKey か it.citekey のどちらかを使用している。  
+doiやタイトルは、上記が割り当てられていない等の不具合時に、代わりに使用される。
+
 Connect > Zotero data directory において  
 画像のようなエラーが出ていても、問題なく動く。  
 ![](../images/002.png)
